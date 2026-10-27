@@ -27,6 +27,10 @@ public class SinhVien {
         System.out.println(hoTen+" "+Diem);
     }
 
+    //phuong thuc co kieu tra ve
+    public double tinhDTB(double diemToan,double diemVan){
+        return (diemToan+diemVan)/2;
+    }
     //get/set
     public String gethoTen(){
         return hoTen;
@@ -40,6 +44,11 @@ public class SinhVien {
     }
     public void setDiem(double Diem){
         this.Diem=Diem;
+    }
+    //test pthuc tostring
+    @Override 
+    public String toString(){
+        return "SinhVien{"+"hoTen='"+hoTen+'\''+",Diem=" +Diem+'}';
     }
 }
 

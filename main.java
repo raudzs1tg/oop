@@ -17,5 +17,11 @@ public class main{
         sv4.sethoTen("Banh");
         sv4.setDiem(3.2);
         sv4.hienThiThongTin(); 
+        //phuong thuc co kieu tra ve
+        double dtbsv4=sv4.tinhDTB(8,6.6);
+        System.out.println(dtbsv4);
+        sv4.hienThiThongTin();//hien ca ten va diem
+        //tostring
+        System.out.println(sv4);
     }
 }   
