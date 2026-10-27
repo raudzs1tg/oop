@@ -26,4 +26,21 @@ public class SinhVien {
     public void hienThiThongTin(){
         System.out.println(hoTen+" "+Diem);
     }
+
+    //get/set
+    public String gethoTen(){
+        return hoTen;
+    }
+    public double getDiem(){
+        return Diem;
+    }
+
+    public void sethoTen(String hoTen){
+        this.hoTen=hoTen;
+    }
+    public void setDiem(double Diem){
+        this.Diem=Diem;
+    }
 }
+
+    

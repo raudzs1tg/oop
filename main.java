@@ -10,5 +10,12 @@ public class main{
         SinhVien sv3=new SinhVien("Duc");
         sv3.hienThiThongTin();
         SinhVien sv4=new SinhVien("VA",20);
+        sv4.hienThiThongTin();
+        System.out.println(sv4.gethoTen());
+        System.out.println(sv4.getDiem());
+        //thay doi ten sv4
+        sv4.sethoTen("Banh");
+        sv4.setDiem(3.2);
+        sv4.hienThiThongTin(); 
     }
-}
+}   
